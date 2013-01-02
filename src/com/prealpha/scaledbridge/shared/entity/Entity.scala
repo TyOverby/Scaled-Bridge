@@ -1,8 +1,34 @@
 package com.prealpha.scaledbridge.shared.entity
 
-import components.{RenderComponent, PhysicsComponent, Component}
-import com.prealpha.scalaslick.geom.Vector2f
+import collection.mutable
 
-case class Entity(val name: String) extends Serializable with SelflyLinkedList {
-    def this() = this(toString)
+object EntityPool extends Iterable[Entity]{
+    import scala.collection.mutable.MutableList
+
+    private[this]
+    val pool     = new MutableList[Entity]
+    val toRemove = new MutableList[Entity]
+    val updated  = new MutableList[Entity]
+
+    def add(entity: Entity){
+        entity +=: pool
+    }
+
+    def toRemove(entity: Entity){
+
+    }
+
+    def iterator = this.pool.iterator
+}
+
+case class Entity(val name: String) {
+    def this() = this(getClass.getSimpleName)
+
+    def update(deltaM: Int){
+        // Don't do anything
+    }
+
+    def flagChanged() {
+
+    }
 }

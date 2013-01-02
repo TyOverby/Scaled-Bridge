@@ -16,4 +16,7 @@ class ComponentTracker[A] extends Iterable[A]{
     def iterator: Iterator[A] = componentList.par.iterator
 }
 
-trait Component extends Entity
+trait Component extends Entity{
+    abstract override
+    def update(deltaM: Int){}
+}
