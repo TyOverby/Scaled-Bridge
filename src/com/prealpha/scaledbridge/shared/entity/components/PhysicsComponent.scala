@@ -8,9 +8,9 @@ trait PhysicsComponent extends Component{
     physicsTracker.add(this)
 
     // In degrees
-    def rotation: Float
+    var rotation: Float
 
-    def position: Vector2f
-    def velocity: Vector2f
-    def acceleration: Vector2f
+    var position: Vector2f
+    var velocity: Vector2f
+    var acceleration: Vector2f
 }

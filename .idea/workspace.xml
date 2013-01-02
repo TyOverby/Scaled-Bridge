@@ -5,17 +5,19 @@
     <ignored path="Scaled Bridge.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/Dummy.txt" changelist="6c241d53-0263-4347-ac1f-5591741d162a" time="1356943810159" ignored="false" />
-    <file path="/fragment.java" changelist="6c241d53-0263-4347-ac1f-5591741d162a" time="1356944979379" ignored="false" />
+    <file path="/fragment.java" changelist="6c241d53-0263-4347-ac1f-5591741d162a" time="1357040211879" ignored="false" />
     <file path="/RunTest.scala" changelist="6c241d53-0263-4347-ac1f-5591741d162a" time="1356944385830" ignored="false" />
     <file path="/BasicGameApp.scala" changelist="6c241d53-0263-4347-ac1f-5591741d162a" time="1356950497041" ignored="false" />
-    <file path="/Slick2dTest.scala" changelist="6c241d53-0263-4347-ac1f-5591741d162a" time="1357039959394" ignored="false" />
+    <file path="/Slick2dTest.scala" changelist="6c241d53-0263-4347-ac1f-5591741d162a" time="1357042196489" ignored="false" />
     <file path="/package.scala" changelist="6c241d53-0263-4347-ac1f-5591741d162a" time="1356947031618" ignored="false" />
-    <file path="/Vector2f.scala" changelist="6c241d53-0263-4347-ac1f-5591741d162a" time="1357040045775" ignored="false" />
+    <file path="/Vector2f.scala" changelist="6c241d53-0263-4347-ac1f-5591741d162a" time="1357040950186" ignored="false" />
     <file path="/Component.scala" changelist="6c241d53-0263-4347-ac1f-5591741d162a" time="1357039866642" ignored="false" />
-    <file path="/Entity.scala" changelist="6c241d53-0263-4347-ac1f-5591741d162a" time="1357040010185" ignored="false" />
-    <file path="/PhysicsComponent.scala" changelist="6c241d53-0263-4347-ac1f-5591741d162a" time="1357037870128" ignored="false" />
+    <file path="/Entity.scala" changelist="6c241d53-0263-4347-ac1f-5591741d162a" time="1357099642056" ignored="false" />
+    <file path="/PhysicsComponent.scala" changelist="6c241d53-0263-4347-ac1f-5591741d162a" time="1357042046155" ignored="false" />
     <file path="/RenderComponent.scala" changelist="6c241d53-0263-4347-ac1f-5591741d162a" time="1357038675668" ignored="false" />
     <file path="/FixedPositionComponent.scala" changelist="6c241d53-0263-4347-ac1f-5591741d162a" time="1357037553883" ignored="false" />
+    <file path="/SelflyLinkedList.scala" changelist="6c241d53-0263-4347-ac1f-5591741d162a" time="1357100083565" ignored="false" />
+    <file path="/a.dummy" changelist="6c241d53-0263-4347-ac1f-5591741d162a" time="1357099006628" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,17 +79,19 @@
       <file leaf-file-name="FixedPositionComponent.scala" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/prealpha/scaledbridge/shared/entity/components/FixedPositionComponent.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="17" selection-start="199" selection-end="199" vertical-scroll-proportion="0.0">
+            <state line="8" column="14" selection-start="214" selection-end="214" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Slick2dTest.scala" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="Slick2dTest.scala" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/Slick2dTest.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="12" selection-start="345" selection-end="345" vertical-scroll-proportion="0.21428572">
-              <folding />
+            <state line="15" column="107" selection-start="615" selection-end="615" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="e#0#44#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -95,7 +99,7 @@
       <file leaf-file-name="Entity.scala" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/prealpha/scaledbridge/shared/entity/Entity.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="30" selection-start="244" selection-end="244" vertical-scroll-proportion="0.0">
+            <state line="3" column="47" selection-start="158" selection-end="158" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="e#49#113#0" expanded="true" />
               </folding>
@@ -103,31 +107,22 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Vector2f.scala" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/prealpha/scalaslick/geom/Vector2f.scala">
+      <file leaf-file-name="RenderComponent.scala" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/prealpha/scaledbridge/shared/entity/components/RenderComponent.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="64" selection-start="211" selection-end="211" vertical-scroll-proportion="0.0">
+            <state line="4" column="45" selection-start="135" selection-end="151" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Component.scala" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/prealpha/scaledbridge/shared/entity/components/Component.scala">
+      <file leaf-file-name="SelflyLinkedList.scala" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/prealpha/scaledbridge/shared/entity/SelflyLinkedList.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="74" selection-start="306" selection-end="306" vertical-scroll-proportion="0.0">
+            <state line="16" column="38" selection-start="406" selection-end="429" vertical-scroll-proportion="0.5925926">
               <folding>
-                <element signature="e#60#113#0" expanded="true" />
+                <element signature="docComment;method#insert#0" expanded="false" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="package.scala" pinned="false" current="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files (x86)/scala/src/scala-library-src.jar!/scala/package.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="38" column="45" selection-start="1962" selection-end="1962" vertical-scroll-proportion="0.0">
-              <folding />
             </state>
           </provider>
         </entry>
@@ -135,16 +130,7 @@
       <file leaf-file-name="PhysicsComponent.scala" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/prealpha/scaledbridge/shared/entity/components/PhysicsComponent.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="21" selection-start="113" selection-end="127" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RenderComponent.scala" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/prealpha/scaledbridge/shared/entity/components/RenderComponent.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="65" selection-start="210" selection-end="210" vertical-scroll-proportion="0.0">
+            <state line="11" column="17" selection-start="286" selection-end="286" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -167,14 +153,15 @@
         <option value="$PROJECT_DIR$/src/com/prealpha/scaledbridge/util/BasicGameApp.scala" />
         <option value="$PROJECT_DIR$/src/com/prealpha/scaledbridge/shared/entity/Component.scala" />
         <option value="$PROJECT_DIR$/src/com/prealpha/scaledbridge/shared/entity/PhysicsComponent.scala" />
-        <option value="$PROJECT_DIR$/src/com/prealpha/scalaslick/util/BasicGameApp.scala" />
         <option value="$PROJECT_DIR$/src/com/prealpha/scaledbridge/shared/entity/components/FixedPositionComponent.scala" />
-        <option value="$PROJECT_DIR$/src/com/prealpha/scaledbridge/shared/entity/components/PhysicsComponent.scala" />
         <option value="$PROJECT_DIR$/src/com/prealpha/scaledbridge/shared/entity/components/RenderComponent.scala" />
         <option value="$PROJECT_DIR$/src/com/prealpha/scaledbridge/shared/entity/components/Component.scala" />
-        <option value="$PROJECT_DIR$/src/com/prealpha/scaledbridge/shared/entity/Entity.scala" />
+        <option value="$PROJECT_DIR$/src/com/prealpha/scalaslick/util/BasicGameApp.scala" />
         <option value="$PROJECT_DIR$/src/com/prealpha/scalaslick/geom/Vector2f.scala" />
+        <option value="$PROJECT_DIR$/src/com/prealpha/scaledbridge/shared/entity/components/PhysicsComponent.scala" />
         <option value="$PROJECT_DIR$/test/Slick2dTest.scala" />
+        <option value="$PROJECT_DIR$/src/com/prealpha/scaledbridge/shared/entity/Entity.scala" />
+        <option value="$PROJECT_DIR$/src/com/prealpha/scaledbridge/shared/entity/SelflyLinkedList.scala" />
       </list>
     </option>
   </component>
@@ -286,7 +273,89 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="scaledbridge" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="entity" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Scaled Bridge" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Scaled Bridge" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="prealpha" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="scaledbridge" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="entity" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="components" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Scaled Bridge" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Scaled Bridge" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="prealpha" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="scalaslick" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Scaled Bridge" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Scaled Bridge" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="prealpha" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="scalaslick" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="geom" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -494,8 +563,8 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18263888" sideWeight="0.6666667" order="1" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.33333334" sideWeight="0.9991205" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18263888" sideWeight="0.6440903" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3559097" sideWeight="0.9991205" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -563,13 +632,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/prealpha/scaledbridge/util/package.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="15" selection-start="165" selection-end="165" vertical-scroll-proportion="0.0952381">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files (x86)/scala/src/scala-library-src.jar!/scala/collection/parallel/Combiner.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state line="12" column="0" selection-start="563" selection-end="563" vertical-scroll-proportion="-0.08934708" />
@@ -592,30 +654,9 @@
         <state line="13" column="6" selection-start="635" selection-end="635" vertical-scroll-proportion="0.20731707" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/prealpha/scalaslick/util/BasicGameApp.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="0" selection-start="83" selection-end="83" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../../../Libraries/slick2d/src/org/newdawn/slick/geom/Vector2f.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="39" column="19" selection-start="779" selection-end="784" vertical-scroll-proportion="0.4059829">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/prealpha/scaledbridge/shared/entity/components/RenderComponent.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="65" selection-start="210" selection-end="210" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/prealpha/scaledbridge/shared/entity/components/PhysicsComponent.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="21" selection-start="113" selection-end="127" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -629,47 +670,79 @@
     </entry>
     <entry file="jar://C:/Program Files (x86)/scala/src/scala-library-src.jar!/scala/package.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="38" column="45" selection-start="1962" selection-end="1962" vertical-scroll-proportion="0.0">
+        <state line="38" column="45" selection-start="1962" selection-end="1962" vertical-scroll-proportion="0.51403886">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/prealpha/scaledbridge/shared/entity/components/Component.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="74" selection-start="306" selection-end="306" vertical-scroll-proportion="0.0">
+        <state line="11" column="74" selection-start="306" selection-end="306" vertical-scroll-proportion="0.39285713">
           <folding>
             <element signature="e#60#113#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/prealpha/scaledbridge/shared/entity/components/FixedPositionComponent.scala">
+    <entry file="file://$PROJECT_DIR$/src/com/prealpha/scalaslick/util/BasicGameApp.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="17" selection-start="199" selection-end="199" vertical-scroll-proportion="0.0">
+        <state line="0" column="36" selection-start="36" selection-end="36" vertical-scroll-proportion="0.0">
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/prealpha/scaledbridge/shared/entity/Entity.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="30" selection-start="244" selection-end="244" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="e#49#113#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/prealpha/scalaslick/geom/Vector2f.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="64" selection-start="211" selection-end="211" vertical-scroll-proportion="0.0">
+        <state line="8" column="38" selection-start="343" selection-end="343" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/prealpha/scaledbridge/shared/entity/components/FixedPositionComponent.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="14" selection-start="214" selection-end="214" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/prealpha/scaledbridge/shared/entity/components/PhysicsComponent.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="17" selection-start="286" selection-end="286" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test/Slick2dTest.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="12" selection-start="345" selection-end="345" vertical-scroll-proportion="0.21428572">
+        <state line="15" column="107" selection-start="615" selection-end="615" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="e#0#44#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/prealpha/scaledbridge/shared/entity/components/RenderComponent.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="45" selection-start="135" selection-end="151" vertical-scroll-proportion="0.0">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/prealpha/scaledbridge/shared/entity/Entity.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="47" selection-start="158" selection-end="158" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="e#49#113#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/prealpha/scaledbridge/shared/entity/SelflyLinkedList.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="38" selection-start="406" selection-end="429" vertical-scroll-proportion="0.5925926">
+          <folding>
+            <element signature="docComment;method#insert#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>

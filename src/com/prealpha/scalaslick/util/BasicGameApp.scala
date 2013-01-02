@@ -1,14 +1,10 @@
 package com.prealpha.scalaslick.util
 
-import com.prealpha.scalaslick.geom.Vector2f
-
-
 
 
 import org.newdawn.slick.{AppGameContainer, BasicGame}
 
 // -Djava.library.path=lib/windows
-
 abstract class BasicGameApp(title: String) extends BasicGame(title){
 
     def main(args: Array[String]){
